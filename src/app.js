@@ -24,7 +24,7 @@ function greet(name) {
 
 //   if conditions
 
-const age = 3;
+const age = 60;
 
 if(age >= 7){
     console.log("your application has reviewed")
@@ -39,3 +39,7 @@ if (age >= 18) {
   } else {
     console.log("Child");
   }
+//   tenary operator
+
+const status1 = age >= 45 ? "is aged" :" is not aged";
+console.log(status1)
