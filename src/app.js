@@ -21,3 +21,21 @@ function greet(name) {
     return numbers.reduce((total, num) => total + num, 0);
   }
   console.log(sum());
+
+//   if conditions
+
+const age = 3;
+
+if(age >= 7){
+    console.log("your application has reviewed")
+}else{
+    console.log("your application not viewed now")
+}
+
+if (age >= 18) {
+    console.log("Adult");
+  } else if (age >= 13) {
+    console.log("Teenager");
+  } else {
+    console.log("Child");
+  }
